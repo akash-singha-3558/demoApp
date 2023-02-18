@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "prod": "next export",
-    "lint": "next lint",
+    
+    "lint": "next lint"
 
 
 
@@ -36,5 +36,5 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1"
   },
-  "homepage": "."
+  "homepage": "./"
 }
